@@ -201,6 +201,8 @@ h2 {
 
 .close-button {
     position: absolute;
+    width: 40px;
+    height: 40px;
     top: 1rem;
     right: 1rem;
     font-size: 2rem;
