@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Image Grid
     const imageGrid = document.getElementById('imageGrid');
     const imageUrls = [
-        '/icon.jpg',
-        '/icon.jpg',
-        '/icon.jpg',
-        '/icon.jpg',
-        '/icon.jpg',
-        '/icon.jpg',
+        '/icon2.jpg',
+        '/icon2.jpg',
+        '/icon2.jpg',
+        '/icon2.jpg',
+        '/icon2.jpg',
+        '/icon2.jpg',
     ];
 
     imageUrls.forEach(url => {

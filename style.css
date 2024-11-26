@@ -90,7 +90,7 @@ main {
 }
 
 .hero {
-    background-image: url('icon.jpg');
+    background-image: url('icon2.jpg');
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);
