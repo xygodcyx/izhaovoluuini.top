@@ -1,54 +1,72 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>安露属</title>
+    <title>安露属 - 清新家园</title>
     <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
 <header>
-    安露属
+    <nav id="main-nav">
+        <div class="logo">
+            <img src="icon.jpg" alt="安露属logo" class="logo-img">
+            <span>安露属</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于露思</a></li>
+            <li><a href="#gallery">清新瞬间</a></li>
+            <li><a href="#news">最新动态</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 </header>
 
-<nav>
-    <a href="#gallery">照片展览</a>
-    <a href="#career">演艺生涯</a>
-    <a href="#testimonials">粉丝评价</a>
-</nav>
+<main>
+    <section id="home" class="hero">
+        <h1>赵露思的清新世界</h1>
+        <p>在这里，感受露思的魅力，分享你的喜爱</p>
+    </section>
 
-<section id="gallery">
-    <h2>照片展览</h2>
-    <div class="gallery">
-        <img src="icon.jpg" alt="赵露思1">
-        <img src="icon.jpg" alt="赵露思2">
-        <img src="icon.jpg" alt="赵露思3">
-        <!-- 添加更多照片 -->
-    </div>
-</section>
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>关于露思</h2>
+            <div class="about-content">
+                <img src="icon.jpg" alt="赵露思写真" class="about-img">
+                <p>
+                    赵露思，中国内地新生代女演员，以其清新脱俗的形象和出色的演技深受观众喜爱。她的笑容如春日里的阳光，温暖而明媚；她的演技如清泉，纯净而灵动。在每一个角色中，露思都倾注了自己的热情与才华，为观众带来了一个个鲜活的人物形象。</p>
+            </div>
+        </div>
+    </section>
 
-<section id="career">
-    <h2>演艺生涯</h2>
-    <p>
-        赵露思，1998年出生于中国成都，著名演员。因出演电视剧《哦！我的皇帝陛下》受到广泛关注。随后，她主演了《传闻中的陈芊芊》、《长歌行》等多部热播剧，并凭借灵动的演技赢得了众多粉丝的喜爱。</p>
-</section>
+    <section id="gallery" class="content-section">
+        <div class="container">
+            <h2>清新瞬间</h2>
+            <div class="image-grid" id="imageGrid"></div>
+        </div>
+    </section>
 
-<section id="testimonials">
-    <h2>粉丝评价</h2>
-    <div class="testimonial">
-        <p>“露思的演技真的越来越棒了，每次都给我带来惊喜！” — 小青</p>
-    </div>
-    <div class="testimonial">
-        <p>“她不仅漂亮，还非常努力，是我的榜样！” — 阿杰</p>
-    </div>
-    <!-- 添加更多评价 -->
-</section>
+    <section id="news" class="content-section">
+        <div class="container">
+            <h2>最新动态</h2>
+            <ul id="newsList" class="news-list"></ul>
+        </div>
+    </section>
+
+</main>
 
 <footer>
-    赵露思后援网 &copy; 2024
+    <div class="container">
+        <p>&copy; 2023 安露属 - 用心传递每一份清新</p>
+    </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
