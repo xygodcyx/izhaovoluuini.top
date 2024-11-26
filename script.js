@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         "舞台风采": [
             "10.jpg", "11.jpg", "12.jpg",
-            "14.jpg", "15.jpg", "16.jpg",
-            "17.jpg", "18.jpg", "19.jpg"
+            "13.jpg", "14.jpg", "15.jpg",
+            "16.jpg", "17.jpg", "18.jpg"
         ],
         "生活随拍": [
-            "21.jpg",
+            "19.jpg","20.jpg","21.jpg",
         ],
     };
 
