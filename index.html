@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>安露属 - 清新家园</title>
-    <link rel="shortcut icon" href="icon2.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+    <title>赵露思后援会 - 清新家园</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <nav id="main-nav">
         <div class="logo">
-            <img src="icon2.jpg" alt="安露属logo" class="logo-img">
-            <span>安露属</span>
+            <img src="icon.jpg" alt="赵露思后援会logo" class="logo-img">
+            <span>赵露思后援会</span>
         </div>
         <ul class="nav-links">
             <li><a href="#home">首页</a></li>
             <li><a href="#about">关于露思</a></li>
             <li><a href="#gallery">清新瞬间</a></li>
             <li><a href="#news">最新动态</a></li>
+            <li><a href="#contact">联系我们</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -38,7 +39,7 @@
         <div class="container">
             <h2>关于露思</h2>
             <div class="about-content">
-                <img src="icon2.jpg" alt="赵露思写真" class="about-img">
+                <img src="icon.jpg" alt="赵露思写真" class="about-img">
                 <p>
                     赵露思，中国内地新生代女演员，以其清新脱俗的形象和出色的演技深受观众喜爱。她的笑容如春日里的阳光，温暖而明媚；她的演技如清泉，纯净而灵动。在每一个角色中，露思都倾注了自己的热情与才华，为观众带来了一个个鲜活的人物形象。</p>
             </div>
@@ -48,7 +49,7 @@
     <section id="gallery" class="content-section">
         <div class="container">
             <h2>清新瞬间</h2>
-            <div class="image-grid" id="imageGrid"></div>
+            <div class="album-grid" id="albumGrid"></div>
         </div>
     </section>
 
@@ -63,10 +64,19 @@
 
 <footer>
     <div class="container">
-        <p>&copy; 2023 安露属 - 用心传递每一份清新</p>
+        <p>&copy; 2023 赵露思后援会 - 用心传递每一份清新</p>
     </div>
 </footer>
+
+<div id="fullscreenAlbum" class="fullscreen-album">
+    <div class="fullscreen-content">
+        <button id="closeAlbum" class="close-button">&times;</button>
+        <h3 id="albumTitle"></h3>
+        <div class="fullscreen-grid"></div>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
 </html>
+
