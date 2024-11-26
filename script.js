@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 相册数据
     const albums = {
         "清新笑颜": [
-            "1.jpg", "2.jpg", "3.jpg",
-            "4.jpg", "5.jpg", "6.jpg",
+            "http://tvax1.sinaimg.cn//008D1biVgy1hvzyv1vttcj30by0hz7aq.jpg", "http://tvax1.sinaimg.cn//008D1biVgy1hvzyv20qcvj30i00a5gpq.jpg", "http://tvax4.sinaimg.cn//008D1biVgy1hvzyv26b57j30bz0hzwj9.jpg",
+            "http://tvax2.sinaimg.cn//008D1biVgy1hvzyv2diccj30ci0hzq6q.jpg", "http://tvax4.sinaimg.cn//008D1biVgy1hvzyv2n57oj30i00a6n29.jpg", "http://tvax4.sinaimg.cn//008D1biVgy1hvzyv2wfuvj30di0hz45m.jpg",
             "7.jpg", "8.jpg", "9.jpg"
         ],
         "舞台风采": [
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "16.jpg", "17.jpg", "18.jpg"
         ],
         "生活随拍": [
-            "19.jpg","20.jpg","21.jpg",
+            "19.jpg", "20.jpg", "21.jpg",
         ],
     };
 
