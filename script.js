@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
+
     burger.addEventListener('click', () => {
         // Toggle Nav
         nav.classList.toggle('nav-active');
@@ -25,10 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageUrls = [
         '/icon2.jpg',
         '/icon2.jpg',
-        '/icon2.jpg',
-        '/icon2.jpg',
-        '/icon2.jpg',
-        '/icon2.jpg',
+        '/icon2.jpg'
     ];
 
     imageUrls.forEach(url => {
